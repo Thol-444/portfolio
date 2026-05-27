@@ -1,20 +1,81 @@
-<<<<<<< HEAD
-# React + Vite
+# 🚀 Nihaarika Tholu — Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional developer portfolio built with React.js and deployed on Vercel.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**[https://portfolio-gamma-sepia-50.vercel.app/](https://portfolio-gamma-sepia-50.vercel.app/)**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Sections
 
-## Expanding the ESLint configuration
+- **Hero** — Introduction, role, stats and CTA buttons
+- **About** — Personal info, education, goals
+- **Skills** — Tech stack organized by category
+- **Projects** — 6 projects with GitHub and live links
+- **Experience** — Internship timeline
+- **Contact** — Email, phone, social links
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# portfolio
->>>>>>> 01704025ed0f6a59bba23a34805e894264e59550
+---
+
+## 🛠️ Tech Stack
+
+- **Framework** — React.js (Vite)
+- **Styling** — Inline CSS (Google/Microsoft style)
+- **Icons** — React Icons
+- **Deployment** — Vercel
+
+---
+
+## 📁 Project Structure
+
+```
+portfolio/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Experience.jsx
+│   │   └── Contact.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   └── index.css
+├── index.html
+└── package.json
+```
+
+---
+
+## ⚙️ Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/Thol-444/portfolio.git
+
+# Go to project folder
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 👩‍💻 Built By
+
+**Nihaarika Tholu**
+B.Tech CSE — Anurag University, Hyderabad
+[LinkedIn](https://www.linkedin.com/in/nihaarika-tholu-b9186129b/) | [GitHub](https://github.com/Thol-444)
+
+---
+
+⭐ If you found this helpful, give it a star!
